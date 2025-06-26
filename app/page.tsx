@@ -23,9 +23,6 @@ export default function LandingPage() {
               <Link href="#why" className="text-slate-400 hover:text-cyan-400 transition-colors font-medium">
                 Why It Matters
               </Link>
-              <Link href="#contact" className="text-slate-400 hover:text-cyan-400 transition-colors font-medium">
-                Contact
-              </Link>
             </nav>
             <Button className="bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white border-0">
               Get Started
@@ -293,9 +290,6 @@ export default function LandingPage() {
             <nav className="flex space-x-6 mb-4 md:mb-0">
               <Link href="/privacy" className="text-slate-400 hover:text-cyan-400 transition-colors font-medium">
                 Privacy Policy
-              </Link>
-              <Link href="/contact" className="text-slate-400 hover:text-cyan-400 transition-colors font-medium">
-                Contact Us
               </Link>
             </nav>
           </div>

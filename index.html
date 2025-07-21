@@ -4,8 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SecurityFirst Lite - Lightweight Security for Agile Development Teams</title>
+    <meta name="description" content="SecurityFirst Lite is a lightweight security tool for agile development teams, offering automated vulnerability scanning and audit logging.">
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body>
     <!-- Header -->
@@ -14,17 +20,17 @@
             <div class="nav-wrapper">
                 <div class="logo">
                     <div class="logo-icon">
-                        <i class="fas fa-shield-alt"></i>
+                        <i class="fas fa-shield-alt" aria-hidden="true"></i>
                     </div>
                     <span class="logo-text">SecurityFirst Lite</span>
                 </div>
-                <nav class="nav-menu" id="navMenu">
+                <nav class="nav-menu" id="navMenu" aria-label="Main Navigation">
                     <a href="#features" class="nav-link">Features</a>
                     <a href="#why" class="nav-link">Why It Matters</a>
                 </nav>
-                <button class="btn btn-primary">Get Started</button>
-                <button class="mobile-menu-btn" id="mobileMenuBtn">
-                    <i class="fas fa-bars"></i>
+                <button class="btn btn-primary" aria-label="Get Started with SecurityFirst Lite">Get Started</button>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open Mobile Navigation">
+                    <i class="fas fa-bars" aria-hidden="true"></i>
                 </button>
             </div>
         </div>
@@ -37,7 +43,7 @@
             <div class="hero-content">
                 <div class="hero-text">
                     <div class="badge">
-                        <i class="fas fa-bolt"></i>
+                        <i class="fas fa-bolt" aria-hidden="true"></i>
                         Now in Early Access
                     </div>
                     <h1 class="hero-title">
@@ -48,8 +54,8 @@
                         A simple way to build security into your workflow—without slowing down your team or adding complexity.
                     </p>
                     <div class="hero-buttons">
-                        <button class="btn btn-primary btn-large">Request Early Access</button>
-                        <button class="btn btn-outline btn-large">View Demo</button>
+                        <button class="btn btn-primary btn-large" aria-label="Request Early Access">Request Early Access</button>
+                        <button class="btn btn-outline btn-large" aria-label="View Demo">View Demo</button>
                     </div>
                     <p class="hero-stats">Join 750+ development teams securing their code</p>
                 </div>
@@ -63,17 +69,17 @@
                         </div>
                         <div class="dashboard-content">
                             <div class="status-item">
-                                <i class="fas fa-check-circle success"></i>
+                                <i class="fas fa-check-circle success" aria-hidden="true"></i>
                                 <span>Vulnerability scan completed</span>
                                 <span class="timestamp">2s ago</span>
                             </div>
                             <div class="status-item">
-                                <i class="fas fa-terminal info"></i>
+                                <i class="fas fa-terminal info" aria-hidden="true"></i>
                                 <span>Git integration active</span>
                                 <span class="timestamp">Connected</span>
                             </div>
                             <div class="status-item">
-                                <i class="fas fa-lock primary"></i>
+                                <i class="fas fa-lock primary" aria-hidden="true"></i>
                                 <span>Audit logs exported</span>
                                 <span class="timestamp">1m ago</span>
                             </div>
@@ -106,7 +112,7 @@
             <div class="features-grid">
                 <div class="feature-card">
                     <div class="feature-icon cyan">
-                        <i class="fas fa-search"></i>
+                        <i class="fas fa-search" aria-hidden="true"></i>
                     </div>
                     <h3 class="feature-title">Automated Vulnerability Scanning</h3>
                     <p class="feature-description">
@@ -115,7 +121,7 @@
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon blue">
-                        <i class="fas fa-file-search"></i>
+                        <i class="fas fa-file-search" aria-hidden="true"></i>
                     </div>
                     <h3 class="feature-title">Developer-Friendly Audit Logs</h3>
                     <p class="feature-description">
@@ -124,7 +130,7 @@
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon purple">
-                        <i class="fas fa-code-branch"></i>
+                        <i class="fas fa-code-branch" aria-hidden="true"></i>
                     </div>
                     <h3 class="feature-title">One-Click Git Integration</h3>
                     <p class="feature-description">
@@ -146,7 +152,7 @@
                 <div class="benefits-list">
                     <div class="benefit-item">
                         <div class="benefit-icon green">
-                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-check-circle" aria-hidden="true"></i>
                         </div>
                         <div class="benefit-text">
                             <h3>Build secure code from day one</h3>
@@ -155,7 +161,7 @@
                     </div>
                     <div class="benefit-item">
                         <div class="benefit-icon cyan">
-                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-check-circle" aria-hidden="true"></i>
                         </div>
                         <div class="benefit-text">
                             <h3>Stay compliant effortlessly</h3>
@@ -164,7 +170,7 @@
                     </div>
                     <div class="benefit-item">
                         <div class="benefit-icon blue">
-                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-check-circle" aria-hidden="true"></i>
                         </div>
                         <div class="benefit-text">
                             <h3>Eliminate late-stage surprises</h3>
@@ -176,19 +182,19 @@
                     <h3>Perfect for:</h3>
                     <div class="use-cases-list">
                         <div class="use-case-item">
-                            <i class="fas fa-users"></i>
+                            <i class="fas fa-users" aria-hidden="true"></i>
                             <span>MVP development teams</span>
                         </div>
                         <div class="use-case-item">
-                            <i class="fas fa-users"></i>
+                            <i class="fas fa-users" aria-hidden="true"></i>
                             <span>Client project agencies</span>
                         </div>
                         <div class="use-case-item">
-                            <i class="fas fa-users"></i>
+                            <i class="fas fa-users" aria-hidden="true"></i>
                             <span>Fast-moving SaaS teams</span>
                         </div>
                         <div class="use-case-item">
-                            <i class="fas fa-users"></i>
+                            <i class="fas fa-users" aria-hidden="true"></i>
                             <span>Startups without security experts</span>
                         </div>
                     </div>
@@ -206,7 +212,7 @@
                 <p class="cta-description">
                     Join the early access program and start building more secure applications today. No credit card required.
                 </p>
-                <button class="btn btn-primary btn-large">Request Early Access</button>
+                <button class="btn btn-primary btn-large" aria-label="Request Early Access">Request Early Access</button>
                 <p class="cta-note">Setup takes less than 5 minutes</p>
             </div>
         </div>
@@ -219,12 +225,12 @@
                 <div class="footer-brand">
                     <div class="logo">
                         <div class="logo-icon">
-                            <i class="fas fa-shield-alt"></i>
+                            <i class="fas fa-shield-alt" aria-hidden="true"></i>
                         </div>
                         <span class="logo-text">SecurityFirst™</span>
                     </div>
                 </div>
-                <nav class="footer-nav">
+                <nav aria-label="Footer Navigation" class="footer-nav">
                     <a href="/privacy" class="footer-link">Privacy Policy</a>
                 </nav>
             </div>
